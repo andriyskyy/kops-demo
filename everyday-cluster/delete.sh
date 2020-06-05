@@ -1,2 +1,2 @@
 #!/bin/bash
-kops delete cluster --name $KOPS_NAME --yes
+kops delete cluster --name $NAME --yes
