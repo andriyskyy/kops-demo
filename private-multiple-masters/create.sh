@@ -7,7 +7,7 @@ kops create cluster \
     --zones us-east-1a,us-east-1b,us-east-1c \
     --master-zones us-east-1a,us-east-1b,us-east-1c \
     --node-size t2.small \
-    --master-size t2.micro \
+    --master-size t2.small \
     --master-volume-size=10 \
     --node-volume-size=10 \
     --topology private \

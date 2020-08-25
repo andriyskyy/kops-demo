@@ -1,2 +1,2 @@
 #!/bin/bash
-kops validate cluster
+kops validate cluster --wait 10m

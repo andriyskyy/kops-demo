@@ -2,7 +2,7 @@
 kubectl config use-context ${NAME}
 
 # Create the kubernetes dashboard
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.1/aio/deploy/recommended.yaml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.3/aio/deploy/recommended.yaml
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
 kind: ServiceAccount
